@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const {} = require('../../models');
 
-// api categories endpoint logic
+// api userwkout endpoint logic
 
 module.exports = router;
