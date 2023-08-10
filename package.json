@@ -20,6 +20,7 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5",
-    "timer-node": "^5.0.7"
+    "timer-node": "^5.0.7",
+    "tiny-timer": "^1.6.0"
   }
 }
