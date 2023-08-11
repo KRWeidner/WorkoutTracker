@@ -4,32 +4,32 @@ const WkOutRoutine = require('./WkOutRoutine');
 const ExerciseList = require('./ExerciseList');
 
 //BELONGSTO, HASMANY, BELONGS TO MANY LOGIC
-User.hasMany(UserWkOuts, {
-    foreignKey: 'userId',
-    onDelete: 'CASCADE'
-});
+ User.hasMany(UserWkOuts, {
+     foreignKey: 'userId',
+     onDelete: 'CASCADE'
+ });
 
-UserWkOuts.belongsTo(User, {
-    foreignKey: 'userId'
-});
+ UserWkOuts.belongsTo(User, {
+     foreignKey: 'userId'
+ });
 
-WkOutRoutine.hasMany(UserWkOuts, {
-    foreignKey: 'routineId',
-    onDelete: 'SET NULL'
-})
+ WkOutRoutine.hasMany(UserWkOuts, {
+     foreignKey: 'routineId',
+     onDelete: 'CASCADE'
+ })
 
-UserWkOuts.belongsTo(User, {
-    foreignKey: 'routineId'
-});
+ UserWkOuts.belongsTo(WkOutRoutine, {
+     foreignKey: 'routineId'
+ });
 
-WkOutRoutine.hasMany(ExerciseList, {
-    foreignKey: 'routineId',
-    onDelete: 'CASCADE'
-})
+ WkOutRoutine.hasMany(ExerciseList, {
+     foreignKey: 'routineId',
+     onDelete: 'CASCADE'
+ })
 
-ExerciseList.belongsTo(WkOutRoutine, {
-    foreignKey: 'routineId'
-});
+ ExerciseList.belongsTo(WkOutRoutine, {
+     foreignKey: 'routineId'
+ });
 
 module.exports = {
     User,

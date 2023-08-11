@@ -1,0 +1,12 @@
+[
+    {
+        "userId": 1,
+        "routineId": 1,
+        "date": "8/9"
+    },
+    {
+        "userId": 1,
+        "routineId": 2,
+        "date": "8/10"
+    }
+]

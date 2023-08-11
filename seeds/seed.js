@@ -1,14 +1,31 @@
-// Maybe the same syntax????
-
 const sequelize = require('../config/connection');
-const { User } = require('../models');
+const { User, ExerciseList, UserWkOuts, WkOutRoutine } = require('../models');
 
-const userData = require('./userData.json');
+ const userData = require('./userData.json');
+ const exerciseData = require('./exerciseData.json');
+ const userWkOutData = require('./userWkOutData.json');
+ const seedRoutines = require('./rountineData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
-  await User.bulkCreate(userData, {
+   const user = await User.bulkCreate(userData, {
+     individualHooks: true,
+     returning: true,
+   });
+
+  await WkOutRoutine.bulkCreate(seedRoutines, {
+    individualHooks: true,
+    returning: true,
+  });
+  
+  await UserWkOuts.bulkCreate(userWkOutData, {
+    individualHooks: true,
+    returning: true,
+  });
+
+  
+  await ExerciseList.bulkCreate(exerciseData, {
     individualHooks: true,
     returning: true,
   });
