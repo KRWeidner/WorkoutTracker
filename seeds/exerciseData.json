@@ -1,0 +1,20 @@
+[
+    {
+        "rountineId": 1,
+        "workoutName": "Squats",
+        "reps": 1,
+        "countdownDuration": "2:30"
+    },
+    {
+        "rountineId": 2,
+        "workoutName": "Push Ups",
+        "reps": 5,
+        "countdownDuration": "2:30"
+    },
+    {
+        "rountineId": 1,
+        "workoutName": "Lunges",
+        "reps": 3,
+        "countdownDuration": "2:30"
+    }
+]

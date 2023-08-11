@@ -25,8 +25,8 @@ WkOutRoutine.init(
         sequelize,
         timestamps: false,
         freezeTableName: true,
-        underscored: true,
-        modelName: 'wkoutroutine',
+        underscored: false,
+        modelName: 'wrkOutRoutine',
     }
     );
 
