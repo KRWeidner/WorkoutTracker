@@ -1,0 +1,23 @@
+
+* {
+
+    box-sizing:border-box;
+    
+  }
+
+body {
+
+    background-color: #efefef;
+    margin: 0;
+
+  }
+
+header {
+
+    display: flex;
+    justify-content:space-between;
+    background-color: #ff723f;
+    padding: 5px;
+    color:darkslategray;
+}
+
