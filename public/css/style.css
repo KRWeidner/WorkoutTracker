@@ -7,7 +7,7 @@
 
 body {
 
-    background-color: #efefef;
+    background-color: #ff723f;
     margin: 0;
 
   }
@@ -16,8 +16,88 @@ header {
 
     display: flex;
     justify-content:space-between;
-    background-color: #ff723f;
+    background-color: #efefef;
     padding: 5px;
     color:darkslategray;
 }
 
+.pageTitle {
+
+  padding-left: 30px;
+
+}
+
+#partTitle {
+
+  padding-left: 30px;
+
+}
+
+.loginSec {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+
+}
+
+.loginForm {
+
+  border: 4px solid darkslategrey;
+  width: 500px;
+  height: 300px;
+
+}
+
+#logTitle {
+  text-align: center;
+}
+
+#userName {
+
+  text-align: center;
+
+}
+
+#password {
+
+  text-align: center;
+
+}
+
+.submitBtn{
+
+text-align: center;
+
+}
+
+main {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  height: 1000px;
+
+}
+
+.wkoutSect {
+
+  padding-top: 60px;
+
+}
+
+.wkoutRout {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid darkslategrey;
+  width: 800px;
+  height: 220px;
+
+}
+
+.routinenName {
+
+}
