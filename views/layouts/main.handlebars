@@ -7,8 +7,21 @@
   <title>Waist Management</title>
   <link rel="stylesheet" href="/css/jass.css">
 </head>
-
-<body> 
+<body>
+  <header>
+    <div>
+      <nav>
+        {{#if logged_out}}
+        <a href="#">Sign Up</a>
+        {{else}}
+        <a href="">Log Out</a>
+        {{/if}}
+      </nav>
+    </div>
+    <div>
+      <h1>Waist Management</h1>
+    </div>
+  </header>
 {{{body}}}
 </body>
 
