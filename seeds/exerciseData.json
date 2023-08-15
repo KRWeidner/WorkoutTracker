@@ -3,18 +3,21 @@
         "rountineId": 1,
         "workoutName": "Squats",
         "reps": 1,
+        "sets": 2,
         "countdownDuration": "2:30"
     },
     {
         "rountineId": 2,
         "workoutName": "Push Ups",
         "reps": 5,
+        "sets": 4,
         "countdownDuration": "2:30"
     },
     {
         "rountineId": 1,
         "workoutName": "Lunges",
         "reps": 3,
+        "sets": 3,
         "countdownDuration": "2:30"
     }
 ]
