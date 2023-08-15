@@ -1,12 +1,11 @@
 const router = require('express').Router();
 const { WkOutRoutine } = require('../models');
-const withAuth = require('../');
 
 router.get('/', async (req, res) => {
   try {
     const routineData = await WkOutRoutine.findAll();
 
-    const routines = routineData.map((routine) => routine.get({ plain: true }));
+    const routines = exerciseData.map((routine) => routine.get({ plain: true }));
 
     res.render('homepage', {
         routines,
