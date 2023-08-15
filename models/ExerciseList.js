@@ -28,6 +28,10 @@ ExerciseList.init(
             type: DataTypes.INTEGER,
             allowNull: false,
           },
+          sets: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+          },
           countdownDuration: {
             type: DataTypes.TIME,
             allowNull: false,
