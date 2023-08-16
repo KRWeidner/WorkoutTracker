@@ -71,13 +71,19 @@ text-align: center;
 
 }
 
-main {
+#SignUpTitle {
+
+  text-align: center;
+
+}
+
+.wkOutMain {
 
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  height: 1000px;
+  height: 1200px;
 
 }
 
@@ -98,6 +104,162 @@ main {
 
 }
 
-.routinenName {
+.wkHistSect {
+
+    padding-top: 60px;
+
+}
+
+.navWkHist {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid darkslategrey;
+  width: 800px;
+  height: 140px;
+
+}
+
+.exerMain {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  height: 1200px;
+
+
+}
+
+.exerSect {
+
+  padding-top: 60px;
+
+}
+
+.exerBox {
+
+  border: 4px solid darkslategrey;
+  width: 600px;
+  height: 220px;
+
+}
+
+#exerTitle {
+
+  text-align: center;
+
+}
+
+.exerData{
+
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+
+}
+
+.exerSRep {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.exerImg {
+
+  border: 3px solid black;
+  height: 100px;
+  width: 200px;
+
+}
+
+.timerSect {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+
+}
+
+.timeContainer {
+
+  border: 4px solid darkslategrey;
+  width: 480px;
+  height: 260px;
+
+}
+
+#timeTitle {
+
+  text-align: center;
+  
+}
+
+#timerFrame {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+
+}
+
+.timer {
+
+ border: 1px solid black;
+ background-color: black;
+ height: 100px;
+ width: 300px;
+  
+}
+
+.timerBtns {
+
+display: flex;
+justify-content: space-around;
+padding-top: 30px;
+
+}
+
+#startBtn {
+
+border: 2px solid black;
+width: 120px;
+height: 40px;
+
+}
+
+#stopBtn {
+
+  border: 2px solid black;
+  width: 120px;
+  height: 40px;
+
+}
+
+#navBtns {
+
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+
+}
+
+#finishBtn {
+
+  border: 2px solid black;
+  width: 120px;
+  height: 40px;
+
+
+}
+
+#nextBtn {
+
+  border: 2px solid black;
+  width: 120px;
+  height: 40px;
+
 
 }
