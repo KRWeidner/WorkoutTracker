@@ -1,11 +1,12 @@
 <!-- LANDING PGAE, ADD NAV? MAKE MORE APPEALABLE-->
 
+{{#each routines as |routine| }}
   <main class="wkOutMain">
     <section class="wkoutSect">
       <a href="#">
       <div class="wkoutRout">
         <div class="routinenName">
-          <h2>{{WORKOUT.NAME}}</h2>
+          <h2>{{routine.routineName}}</h2>
         </div>
         <div>
             <!-- Description of workout -->
@@ -17,7 +18,7 @@
       <a href="#">
       <div class="wkoutRout">
         <div class="routinenName">
-          <h2>{{WORKOUT.NAME}}</h2>
+          <h2>{{routine.routineName}}</h2>
         </div>
         <div>
             <!-- Description of workout -->
@@ -29,7 +30,7 @@
       <a href="#">
       <div class="wkoutRout">
         <div class="routinenName">
-          <h2>{{WORKOUT.NAME}}</h2>
+          <h2>{{routine.routineName}}</h2>
         </div>
         <div>
           <!-- Description of workout -->
@@ -37,6 +38,7 @@
       </div>
       </a>
     </section>
+  {{/each}}
     <section class="wkHistSect">
       <a href="#">
       <div class="navWkHist">
