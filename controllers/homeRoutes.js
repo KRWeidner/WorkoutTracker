@@ -5,7 +5,7 @@ router.get('/', async (req, res) => {
   try {
     const routineData = await WkOutRoutine.findAll();
 
-    const routines = exerciseData.map((routine) => routine.get({ plain: true }));
+    const routines = routineData.map((routine) => routine.get({ plain: true }));
 
     res.render('homepage', {
         routines,

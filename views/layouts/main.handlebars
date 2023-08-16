@@ -5,16 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Waist Management</title>
-  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
   <header>
     <div>
       <nav>
-        {{#if logged_out}}
+        {{#if logged_in}}
+        <a href="#">Sign Up</a>
         <a href="#">Sign Up</a>
         {{else}}
-        <a href="/login">Log Out</a>
+        <a href="/login">Log In</a>
         {{/if}}
       </nav>
     </div>

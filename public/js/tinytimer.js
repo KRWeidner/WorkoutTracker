@@ -8,3 +8,7 @@ timer.on('done', () => console.log('done!'))
 timer.on('statusChanged', (status) => console.log('status:', status))
  
 timer.start(5000) // run for 5 seconds
+
+
+
+
