@@ -1,15 +1,19 @@
 [
     {
-        "routineName": "5X5",
+        
+        "routineName": "Upper Body",
+        "routineDescription": "This is a routine for developing upper body strength.",
         "routineVersion": 1
     },
     {
-        "routineName": "5X5", 
-        "routineVersion": 2
+        "routineName": "Lower Body",
+        "routineDescription": "This is a routine for developing lower body strength.",
+        "routineVersion": 1
     },
     {
-        "routineName": "Random", 
+        "routineName": "Kick Boxing",
+        "routineDescription": "This is a routine for developing kick boxing skills and improving cardio health.",
         "routineVersion": 1
     }
-
 ]
+

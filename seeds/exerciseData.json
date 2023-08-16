@@ -1,6 +1,41 @@
 [
     {
         "rountineId": 1,
+        "workoutName": "Reverse Flys",
+        "reps": 12,
+        "sets": 3,
+        "countdownDuration": "2:30"
+    },
+    {
+        "rountineId": 1,
+        "workoutName": "Bent-over Row",
+        "reps": 12,
+        "sets": 3,
+        "countdownDuration": "2:30"
+    },
+    {
+        "rountineId": 1,
+        "workoutName": "Overhead Triceps Extension",
+        "reps": 12,
+        "sets": 3,
+        "countdownDuration": "2:30"
+    },
+      {
+        "rountineId": 1,
+        "workoutName": "Bicep Curls",
+        "reps": 12,
+        "sets": 3,
+        "countdownDuration": "2:30"
+    },
+    {
+        "rountineId": 1,
+        "workoutName": "LatBicep Curls",
+        "reps": 12,
+        "sets": 3,
+        "countdownDuration": "2:30"
+    },
+    {
+        "rountineId": 2,
         "workoutName": "Squats",
         "reps": 1,
         "sets": 2,
@@ -8,16 +43,11 @@
     },
     {
         "rountineId": 2,
-        "workoutName": "Push Ups",
-        "reps": 5,
-        "sets": 4,
-        "countdownDuration": "2:30"
-    },
-    {
-        "rountineId": 1,
         "workoutName": "Lunges",
         "reps": 3,
         "sets": 3,
         "countdownDuration": "2:30"
     }
+    
+
 ]
