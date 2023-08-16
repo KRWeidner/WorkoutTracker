@@ -24,6 +24,33 @@
     </nav>
   </header>
 
+  <main class="exerMain">
+    <section class="exerSect">
+      <div class="exerBox">
+        {{> exercise-details}}
+      </div>
+    </section>
+    <section class="timerSect">
+      <div class="timeContainer">
+        <div id="timeTitle">
+          <a>TIMER</a>
+        </div>
+        <div id="timerFrame">
+        <div class="timer">
+          <a><!-- 2:00 --></a>
+        </div>
+        </div>
+        <div class="timerBtns">
+          <button id="startBtn">START</button>
+          <button id="stopBtn">STOP</button>
+        </div>
+      </div>
+    </section>
+    <div id="navBtns">
+      <button id="finishBtn">Finish Now</button>
+      <button id="nextBtn">Next Workout</button>
+    </div>
+  </main>
   
 </body>
 <!-- #efefef, #ff723f -->
