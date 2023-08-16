@@ -1,14 +1,42 @@
 [
   {
-    "name": "Sal",
+    "name": "Alpha",
     "password": "password12345"
   },
   {
-    "name": "Lernantino",
+    "name": "Beta",
     "password": "password12345"
   },
   {
-    "name": "Amiko",
+    "name": "Delta",
+    "password": "password12345"
+  },
+  {
+    "name": "Epsilon",
+    "password": "password12345"
+  },
+  {
+    "name": "Zeta",
+    "password": "password12345"
+  },
+  {
+    "name": "Theta",
+    "password": "password12345"
+  },
+  {
+    "name": "Iota",
+    "password": "password12345"
+  },
+  {
+    "name": "Kappa",
+    "password": "password12345"
+  },
+  {
+    "name": "Lambda",
+    "password": "password12345"
+  },
+  {
+    "name": "Sigma",
     "password": "password12345"
   }
 ]

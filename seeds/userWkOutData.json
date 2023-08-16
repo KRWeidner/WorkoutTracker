@@ -8,5 +8,121 @@
         "userId": 1,
         "routineId": 2,
         "date": "8/10"
+    },
+    {
+        "userId": 1,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 2,
+        "routineId": 1,
+        "date": "8/9"
+    },
+    {
+        "userId": 2,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 2,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 3,
+        "routineId": 1,
+        "date": "8/9"
+    },
+    {
+        "userId": 3,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 4,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 4,
+        "routineId": 1,
+        "date": "8/9"
+    },
+    {
+        "userId": 4,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 4,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 5,
+        "routineId": 1,
+        "date": "8/9"
+    },
+    {
+        "userId": 6,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 6,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 6,
+        "routineId": 1,
+        "date": "8/9"
+    },
+    {
+        "userId": 7,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 7,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 7,
+        "routineId": 1,
+        "date": "8/9"
+    },
+    {
+        "userId": 8,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 8,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 9,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 9,
+        "routineId": 3,
+        "date": "8/9"
+    },
+    {
+        "userId": 10,
+        "routineId": 2,
+        "date": "8/10"
+    },
+    {
+        "userId": 10,
+        "routineId": 3,
+        "date": "8/9"
     }
+ 
 ]
