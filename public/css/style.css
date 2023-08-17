@@ -8,7 +8,10 @@
 body {
 
     background-color: #ff723f;
-    margin: 0;
+    background-image: url('../images/optimized---image\ 01.jpg');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 50% -25%;
 
   }
 
@@ -18,18 +21,67 @@ header {
     justify-content:space-between;
     background-color: #efefef;
     padding: 5px;
-    color:darkslategray;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#logoContainer {
+
+  display: flex;
+  height: 100px;
+  width: 100px;
+
+}
+
+#logoPic {
+
+width: 300px;
+margin-top: 5px;
+margin-left: -10px;
+
 }
 
 .pageTitle {
 
-  padding-left: 30px;
+  margin-top: -40px;
+  margin-left: -10px;
 
 }
 
-#partTitle {
+#firTitle {
 
-  padding-left: 30px;
+  position: relative;
+  color :#ff723f;
+  text-shadow: black 0px 0px 13px;
+  letter-spacing: 1vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  z-index: 1;
+
+}
+
+#secTitle {
+
+  position: absolute;
+  color: black;
+  text-shadow: #ff723f 0px 0px 4px;
+  margin-top: -75px;
+  padding-left: 10px;
+  letter-spacing: 0.5vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  z-index: 0;
+
+}
+
+#centerImg {
+
+width: 1400px;
+margin-top: 5px;
+margin-left: 22%;
+background-image: url('../images/Running-Form_2.jpg');
+box-shadow: 50px 0px 10px #efefef inset, -50px 0px 10px #efefef inset;
 
 }
 
@@ -43,37 +95,56 @@ header {
 
 .loginForm {
 
-  border: 4px solid darkslategrey;
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efefef;
+  border: 2px solid #858585;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px #b9512b;
+  width: 360px;
   height: 300px;
 
 }
 
-#logTitle {
+#logTitle, #signUpTitle {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff723f;
+  border: 2px solid #b9512b;
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px #858585;
   text-align: center;
+  margin-top: -15px;
+  height: 45px;
+  width: 300px;
 }
 
-#userName {
+#loginH {
 
-  text-align: center;
-
-}
-
-#password {
-
-  text-align: center;
 
 }
 
-.submitBtn{
+#userLogin, #userSignup {
 
-text-align: center;
+  padding: 10px 40px;
+  margin-top: 15px;
 
 }
 
-#SignUpTitle {
+#passwordLogin, #passwordSignup {
 
-  text-align: center;
+  padding: 10px 40px;
+  margin: 20px 0;
+
+}
+
+#loginBtn, #signUpbtn{
+
+  padding: 10px 20px;
+  margin: 18px 0;
 
 }
 
