@@ -26,6 +26,32 @@
     </nav>
   </header>
 
+    <main class="wkOutMain">
+    {{#each routines as |routine| }}
+    <section class="wkoutSect">
+      <a href="#">
+      <div class="wkoutRout">
+        <div class="routinenName">
+          <h2 id="routName">{{routine.routineName}}</h2>
+        </div>
+        <div id="routDesc" style="display: none;" >
+            <p>DESCRIPTION OF WORKOUT</p>
+        </div>
+      </div>
+      </a>
+    </section>
+  {{/each}}
+    <section class="wkHistSect">
+      <a href="#">
+      <div class="navWkHist">
+        <div class="routinenName">
+          <h2>Workout History</h2>
+        </div>
+      </div>
+      </a>
+    </section>
+</main>
+
 </body>
-<!-- #efefef, #ff723f -->
+  <script src="./public/js/index.js"></script>
 </html>

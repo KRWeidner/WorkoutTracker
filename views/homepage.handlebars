@@ -1,14 +1,14 @@
 <!-- LANDING PGAE, ADD NAV? MAKE MORE APPEALABLE-->
-  <main class="wkOutMain">
+    <main class="wkOutMain">
     {{#each routines as |routine| }}
     <section class="wkoutSect">
       <a href="#">
       <div class="wkoutRout">
         <div class="routinenName">
-          <h2>{{routine.routineName}}</h2>
+          <h2 id="routName">{{routine.routineName}}</h2>
         </div>
-        <div>
-            <!-- Description of workout -->
+        <div id="routDesc" style="display: none;" >
+            <p>DESCRIPTION OF WORKOUT</p>
         </div>
       </div>
       </a>
