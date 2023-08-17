@@ -9,12 +9,14 @@
 </head>
 <body>
   <header>
-    <div class="pageTitle">
-      <h1>Waist <br><a id="partTitle">Management</a></h1>
+    <div id="logoContainer">
+      <img id="logoPic" src="./public/images/pngtree-wm-logo-design-concept-corporate-modern-minimal-vector-png-image_23637650.png">
+      <div class="pageTitle">
+      <h1 id="firTitle">Waist</h1>
+      <h1 id="secTitle">Management</h1>
     </div>
-    <div>
-        <image src=""></image>
     </div>
+    <div id="centerImg"></div>
     <nav>
       {{#if logged_out}}
       <a href="#">Sign Up</a>
@@ -24,34 +26,6 @@
     </nav>
   </header>
 
-  <main class="exerMain">
-    <section class="exerSect">
-      <div class="exerBox">
-        {{> exercise-details}}
-      </div>
-    </section>
-    <section class="timerSect">
-      <div class="timeContainer">
-        <div id="timeTitle">
-          <a>TIMER</a>
-        </div>
-        <div id="timerFrame">
-        <div class="timer">
-          <a><!-- 2:00 --></a>
-        </div>
-        </div>
-        <div class="timerBtns">
-          <button id="startBtn">START</button>
-          <button id="stopBtn">STOP</button>
-        </div>
-      </div>
-    </section>
-    <div id="navBtns">
-      <button id="finishBtn">Finish Now</button>
-      <button id="nextBtn">Next Workout</button>
-    </div>
-  </main>
-  
 </body>
 <!-- #efefef, #ff723f -->
 </html>
