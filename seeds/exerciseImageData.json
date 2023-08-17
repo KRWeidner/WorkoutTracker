@@ -1,10 +1,68 @@
 [
+    
     {
-        "exercise_id": 1,
-        "photo_link": "https://media.istockphoto.com/id/1306353165/vector/young-african-american-woman-in-sportwear-doing-squats-on-mat.jpg?s=2048x2048&w=is&k=20&c=Se4_eIhEPu-v-PvQIlk2oZF0MNcLgc7N_L7JTykJm6o="
+		"exercise_id" : 1,
+		"photo_link" : "bootyworkout-squats-istockphoto-1306046535-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 2,
+		"photo_link" : "bootyworkout-lunges-istockphoto-1306046535-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 3,
+		"photo_link" : "bootyworkout-kickBack-istockphoto-1306046535-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 4,
+		"photo_link" : "bootyworkout-istockphoto-1306046535-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 5,
+		"photo_link" : "bootyworkout-donkeyKicks-istockphoto-1306046535-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 6,
+		"photo_link" : "bootyworkout-OuterThighLift-istockphoto-1306046535-1024x1024.jpg"
     },
+	{
+		"exercise_id" : 7,
+		"photo_link" : "FullWorkout-sitUp-istockphoto-867625670-1024x1024.jpg"
+	},
     {
-        "exercise_id": 1,
-        "photo_link": "https://www.istockphoto.com/photo/sporty-woman-practicing-squat-exercise-gm913809172-251541680"
-    }
+		"exercise_id" : 8,
+		"photo_link" : "FullWorkout-sitUp-istockphoto-867625670-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 9,
+		"photo_link" : "FullWorkout-chestFly-istockphoto-867625670-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 10,
+		"photo_link" : "FullWorkout-PushUp-istockphoto-867625670-1024x1024.jpg"
+	},
+    {
+		"exercise_id" : 11,
+		"photo_link" : "FullWorkout-Plank-istockphoto-867625670-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 12,
+		"photo_link" : "FullWorkout-OverHeadPress-istockphoto-867625670-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 13,
+		"photo_link" : "BodyWeight-reverseCrunch-istockphoto-1094508738-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 14,
+		"photo_link" : "BodyWeight-mountainClimbers-istockphoto-1094508738-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 15,
+		"photo_link" : "BodyWeight-CrabWalk-istockphoto-1094508738-1024x1024.jpg"
+	},
+	{
+		"exercise_id" : 16,
+		"photo_link" : "BodyWeight-DuckWalks-istockphoto-1094508738-1024x1024.jpg"
+	}	    
 ]
+

@@ -1,19 +1,16 @@
 [
-    {
-        
-        "routineName": "Upper Body",
-        "routineDescription": "This is a routine for developing upper body strength.",
-        "routineVersion": 1
-    },
-    {
-        "routineName": "Lower Body",
-        "routineDescription": "This is a routine for developing lower body strength.",
-        "routineVersion": 1
-    },
-    {
-        "routineName": "Kick Boxing",
-        "routineDescription": "This is a routine for developing kick boxing skills and improving cardio health.",
-        "routineVersion": 1
-    }
+	{
+		"routineName" : "Booty Workout",
+		"routineVersion" : 1
+	},
+	{
+		"routineName" : "Full Send Workout",
+		"routineVersion" : 1
+	},
+	{
+		"routineName" : "Body Weight Workout",
+		"routineVersion" : 1
+	}
 ]
+
 
