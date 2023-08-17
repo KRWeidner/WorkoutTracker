@@ -1,27 +1,32 @@
-  <main class="exerMain">
-    <section class="exerSect">
-      <div class="exerBox">
-      {{> exercise-details}}
+<main class="exerMain">
+  <section class="exerSect">
+    <div class="exerBox">
+      {{!-- {{> exercise-details}} --}}
+      {{exercise.workoutName}}
+    </div>
+  </section>
+  <section class="timerSect">
+    <div class="timeContainer">
+      <div id="timeTitle">
+        <a>TIMER</a>
       </div>
-    </section>
-    <section class="timerSect">
-      <div class="timeContainer">
-        <div id="timeTitle">
-          <a>TIMER</a>
-        </div>
-        <div id="timerFrame">
+      <div id="timerFrame">
         <div class="timer">
           <a><!-- 2:00 --></a>
         </div>
-        </div>
-        <div class="timerBtns">
-          <button id="startBtn">START</button>
-          <button id="stopBtn">STOP</button>
-        </div>
       </div>
-    </section>
-    <div id="navBtns">
-      <button id="finishBtn">Finish Now</button>
-      <button id="nextBtn">Next Workout</button>
+      <div class="timerBtns">
+        <button id="startBtn">START</button>
+        <button id="stopBtn">STOP</button>
+      </div>
     </div>
-  </main>
+  </section>
+  <div id="navBtns">
+    <button id="finishBtn">Finish Now</button>
+    <button id="nextBtn">Next Workout</button>
+  </div>
+  {{exercise.workoutName}}
+</main>
+
+{{!-- add div id with {{exercise.routineId}}  to queryseelct in exercise.js--}}
+<script src="./js/exercise.js"></script>

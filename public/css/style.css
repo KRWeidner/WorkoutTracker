@@ -93,7 +93,7 @@ box-shadow: 50px 0px 10px #efefef inset, -50px 0px 10px #efefef inset;
 
 }
 
-.loginForm {
+.loginForm, .signupForm {
 
   display: flex;
   flex-direction: column;

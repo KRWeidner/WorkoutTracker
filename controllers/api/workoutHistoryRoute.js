@@ -4,7 +4,7 @@ const { UserWkOuts } = require('../../models');
 router.get('/', async (req, res) => {
     try {
         const userHistoryData = await UserWkOuts.findAll({
-            where: { user_id: req.session.user_id }
+            where: { userId: req.session.user_id }
         });
 
         const pastWorkouts = userHistoryData.map((history) => history.get({ plain: true }))
@@ -23,7 +23,7 @@ router.post('/', async (req, res) => {
     try {
         const newUserHistoryData = await UserWkOuts.create({
             ...req.body,
-            user_id: req.session.user_id,
+            userId: req.session.user_id,
           });
 
         const pastWorkouts = userHistoryData.map((history) => history.get({ plain: true }))

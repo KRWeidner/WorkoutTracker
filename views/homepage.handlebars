@@ -2,7 +2,7 @@
   <main class="wkOutMain">
     {{#each routines as |routine| }}
     <section class="wkoutSect">
-      <a href="#">
+      <a href="api/exercises/{{routine.id}}">
       <div class="wkoutRout">
         <div class="routinenName">
           <h2>{{routine.routineName}}</h2>
@@ -15,7 +15,7 @@
     </section>
   {{/each}}
     <section class="wkHistSect">
-      <a href="#">
+      <a href="api/workoutHistory">
       <div class="navWkHist">
         <div class="routinenName">
           <h2>Workout History</h2>

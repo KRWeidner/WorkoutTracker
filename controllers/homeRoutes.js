@@ -1,7 +1,8 @@
 const router = require('express').Router();
 const { WkOutRoutine } = require('../models');
+const withAuth = require('../utils/auth');
 
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
   try {
     const routineData = await WkOutRoutine.findAll();
 
@@ -18,10 +19,14 @@ router.get('/', async (req, res) => {
 
 router.get('/login', (req, res) => {
   if (req.session.logged_in) {
-    res.redirect('/');
+    res.redirect('homepage');
     return;
   }
   res.render('login');
+});
+
+router.get('/signup', (req, res) => {
+  res.render('signup');
 });
 
 module.exports = router;
