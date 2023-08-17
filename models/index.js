@@ -2,7 +2,7 @@ const User = require('./User');
 const UserWkOuts = require('./UserWkOuts');
 const WkOutRoutine = require('./WkOutRoutine');
 const ExerciseList = require('./ExerciseList');
-const ExerciseImage = require('./ExerciseImages');
+const ExerciseImage = require('./ExerciseImage');
 
 //BELONGSTO, HASMANY, BELONGS TO MANY LOGIC
  User.hasMany(UserWkOuts, {
@@ -39,7 +39,6 @@ const ExerciseImage = require('./ExerciseImages');
  ExerciseImage.belongsTo(ExerciseList, {
     foreignKey: 'exercise_id'
 });
-
 
 
 module.exports = {

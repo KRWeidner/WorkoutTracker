@@ -20,14 +20,14 @@ UserWkOuts.init(
                 key: 'id',
               },
           },
-          routineId: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            references: {
-                model: 'wrkOutRoutine',
-                key: 'id',
-              },
-          },
+          // routineId: {
+          //   type: DataTypes.INTEGER,
+          //   allowNull: false,
+          //   references: {
+          //       model: 'wrkOutRoutine',
+          //       key: 'id',
+          //     },
+          // },
           date: {
             type: DataTypes.DATE,
             allowNull: false,

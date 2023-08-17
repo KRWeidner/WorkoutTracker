@@ -1,53 +1,146 @@
 [
-    {
-        "rountineId": 1,
-        "workoutName": "Reverse Flys",
-        "reps": 12,
-        "sets": 3,
-        "countdownDuration": "2:30"
-    },
-    {
-        "rountineId": 1,
-        "workoutName": "Bent-over Row",
-        "reps": 12,
-        "sets": 3,
-        "countdownDuration": "2:30"
-    },
-    {
-        "rountineId": 1,
-        "workoutName": "Overhead Triceps Extension",
-        "reps": 12,
-        "sets": 3,
-        "countdownDuration": "2:30"
-    },
-      {
-        "rountineId": 1,
-        "workoutName": "Bicep Curls",
-        "reps": 12,
-        "sets": 3,
-        "countdownDuration": "2:30"
-    },
-    {
-        "rountineId": 1,
-        "workoutName": "LatBicep Curls",
-        "reps": 12,
-        "sets": 3,
-        "countdownDuration": "2:30"
-    },
-    {
-        "rountineId": 2,
-        "workoutName": "Squats",
-        "reps": 1,
-        "sets": 2,
-        "countdownDuration": "2:30"
-    },
-    {
-        "rountineId": 2,
-        "workoutName": "Lunges",
-        "reps": 3,
-        "sets": 3,
-        "countdownDuration": "2:30"
-    }
-    
-
+	{
+		"id" : 1,
+		"rountineId" : 1,
+		"workoutName" : "Lunges",
+		"reps" : 12,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 2,
+		"rountineId" : 1,
+		"workoutName" : "Squats",
+		"reps" : 12,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 3,
+		"rountineId" : 1,
+		"workoutName" : "Donkey kicks",
+		"reps" : 12,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 4,
+		"rountineId" : 1,
+		"workoutName" : "Outer Thigh Lift",
+		"reps" : 12,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 5,
+		"rountineId" : 1,
+		"workoutName" : "Kickback",
+		"reps" : 12,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 6,
+		"rountineId" : 2,
+		"workoutName" : "Overhead Press",
+		"reps" : 12,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 7,
+		"rountineId" : 2,
+		"workoutName" : "Plank",
+		"reps" : 1,
+		"sets" : 3,
+		"countdownDuration" : "01:00:00",
+		"routineId" : null
+	},
+	{
+		"id" : 8,
+		"rountineId" : 2,
+		"workoutName" : "Chest fly",
+		"reps" : 12,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 9,
+		"rountineId" : 2,
+		"workoutName" : "Push ujps",
+		"reps" : 15,
+		"sets" : 2,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 10,
+		"rountineId" : 2,
+		"workoutName" : "Sit ups",
+		"reps" : 20,
+		"sets" : 2,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 11,
+		"rountineId" : 3,
+		"workoutName" : "Frog Jumps",
+		"reps" : 15,
+		"sets" : 2,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 12,
+		"rountineId" : 3,
+		"workoutName" : "Duck Walks",
+		"reps" : 15,
+		"sets" : 2,
+		"countdownDuration" : "02:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 13,
+		"rountineId" : 3,
+		"workoutName" : "Reverse Crunch",
+		"reps" : 15,
+		"sets" : 2,
+		"countdownDuration" : "01:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 14,
+		"rountineId" : 3,
+		"workoutName" : "Mountain Climbers",
+		"reps" : 15,
+		"sets" : 2,
+		"countdownDuration" : "01:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 15,
+		"rountineId" : 3,
+		"workoutName" : "Mountain Climbers",
+		"reps" : 15,
+		"sets" : 2,
+		"countdownDuration" : "01:30:00",
+		"routineId" : null
+	},
+	{
+		"id" : 16,
+		"rountineId" : 3,
+		"workoutName" : "Mountain Climbers",
+		"reps" : 15,
+		"sets" : 2,
+		"countdownDuration" : "01:30:00",
+		"routineId" : null
+	}
 ]
