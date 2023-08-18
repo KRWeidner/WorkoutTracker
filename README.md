@@ -31,7 +31,8 @@ GitHub Repository: [https://github.com/KRWeidner/WorkoutTracker](https://github.
 
 Screen Shot:
 
-![Screen Shot:](images/BodyWeight-CrabWalk-istockphoto-1094508738-1024x1024.jpg)
+![Screen Shot:](public\images\pngtree-wm-logo-design-concept-corporate-modern-minimal-vector-png-image_23637650.png)
+
 
 
 
