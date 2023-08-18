@@ -12,7 +12,7 @@ ExerciseList.init(
             primaryKey: true,
             autoIncrement: true,
           },
-          rountineId: {
+          routineId: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
