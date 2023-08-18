@@ -15,7 +15,7 @@ function showDescription() {
 function closeDescription() {
 
     routDescription.style.display = "none";
-    routName.style.display  = "block";
+    routName.style.display = "block";
 
 };
 
@@ -24,7 +24,7 @@ function enlargeBox() {
     routTitle.style.display = "none";
     exercList.style.display = "block";
 
-}
+};
 
 routName.addEventListener("mouseenter", showDescription);
 routDescription.addEventListener("mouseleave", closeDescription);
