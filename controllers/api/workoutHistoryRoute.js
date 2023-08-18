@@ -4,7 +4,8 @@ const { UserWkOuts } = require('../../models');
 router.get('/', async (req, res) => {
     try {
         const userHistoryData = await UserWkOuts.findAll({
-            where: { userId: req.session.user_id }
+            where: { userId: req.session.user_id },
+            order: ['date'],
         });
 
         const pastWorkouts = userHistoryData.map((history) => history.get({ plain: true }))
