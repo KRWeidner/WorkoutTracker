@@ -5,13 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Waist Management</title>
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header>
-    <div class="pageTitle">
-      <h1>Waist <br><a id="partTitle">Management</a></h1>
+    <div id="logoContainer">
+      <img id="logoPic" src="./public/images/pngtree-wm-logo-design-concept-corporate-modern-minimal-vector-png-image_23637650.png">
+      <div class="pageTitle">
+      <h1 id="firTitle">Waist</h1>
+      <h1 id="secTitle">Management</h1>
     </div>
+    </div>
+    <div id="centerImg"></div>
     <div>
       <nav>
         {{#if logged_in}}
@@ -22,12 +27,11 @@
       </nav>
     </div>
   </header>
-{{{body}}}
+  {{{body}}}
 
   {{#if logged_in}}
-  <h1>Waist <br><a id="partTitle">KATY</a></h1>
   <script src="./js/logout.js"></script>
   {{/if}}
 </body>
-
+  <script src="./public/js/index.js"></script>
 </html>
