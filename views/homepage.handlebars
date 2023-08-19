@@ -2,8 +2,9 @@
     <main class="wkOutMain">
     {{#each routines as |routine| }}
     <section class="wkoutSect">
-      <a href="api/exercises/{{routine.id}}">
+      <a id="wkOutEl" href="api/exercises/{{routine.id}}">
       <div class="wkoutRout">
+        <img src="">
         <div class="routinenName">
           <h2 id="routName">{{routine.routineName}}</h2>
         </div>
@@ -24,5 +25,3 @@
       </a>
     </section>
 </main>
-
-  

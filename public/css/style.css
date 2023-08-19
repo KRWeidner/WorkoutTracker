@@ -7,11 +7,7 @@
 
 body {
 
-    background-color: #ff723f;
-    background-image: url('../images/optimized---image\ 01.jpg');
-    background-size: 1000px;
-    background-repeat: no-repeat;
-    background-position: 50% -25%;
+  background-color: #ff723f;
 
   }
 
@@ -26,19 +22,93 @@ header {
     margin-right: -8px;
 }
 
+/*.backGroundImg {
+
+  background-image: url('../images/optimized---image\ 01.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -25%;
+
+}*/
+
 #logoContainer {
 
   display: flex;
   height: 100px;
   width: 100px;
+  padding-left: 5px;
 
 }
 
 #logoPic {
 
-width: 300px;
-margin-top: 5px;
-margin-left: -10px;
+width: 400px;
+
+}
+
+#signUpNav {
+
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 120px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+
+}
+
+#logSignEl {
+
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+.no-button {
+
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 120px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
 
 }
 
@@ -77,7 +147,7 @@ margin-left: -10px;
 
 #centerImg {
 
-width: 1400px;
+width: 1200px;
 margin-top: 5px;
 margin-left: 22%;
 background-image: url('../images/Running-Form_2.jpg');
@@ -101,7 +171,7 @@ box-shadow: 50px 0px 10px #efefef inset, -50px 0px 10px #efefef inset;
   background-color: #efefef;
   border: 2px solid #858585;
   border-radius: 10px;
-  box-shadow: 8px 8px 10px #b9512b;
+  box-shadow: 8px 8px 10px #b9512b, rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   width: 360px;
   height: 300px;
 
@@ -124,13 +194,33 @@ box-shadow: 50px 0px 10px #efefef inset, -50px 0px 10px #efefef inset;
 
 #userLogin, #userSignup {
 
+  background-image: url('../images/pngwing.com.png');
+  background-repeat: no-repeat;
+  background-position: 7px 6px;
+  background-size: 23px;
   padding: 10px 40px;
   margin-top: 15px;
 
 }
 
+.form-input {
+
+  border-radius: 4px;
+
+}
+
+.form-input:hover {
+
+  box-shadow: #FF7E31 0 3px 8px inset;
+
+}
+
 #passwordLogin, #passwordSignup {
 
+  background-image: url('../images/kisspng-computer-icons-password-scalable-vector-graphics-p-ampquotforgot-password-5c559f30b61fe9.449194351549115184746.png');
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+  background-size: 26px;
   padding: 10px 40px;
   margin: 20px 0;
 
@@ -167,7 +257,7 @@ box-shadow: 50px 0px 10px #efefef inset, -50px 0px 10px #efefef inset;
   background-color: #efefef;
   border: 3px solid #858585;
   border-radius: 10px;
-  box-shadow: 8px 8px 10px #b9512b;
+  box-shadow: 8px 8px 10px #b9512b, rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   width: 800px;
   height: 220px;
 
@@ -197,7 +287,7 @@ box-shadow: 50px 0px 10px #efefef inset, -50px 0px 10px #efefef inset;
   background-color: #efefef;
   border: 3px solid #858585;
   border-radius: 10px;
-  box-shadow: 8px 8px 10px #b9512b;
+  box-shadow: 8px 8px 10px #b9512b, rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   width: 800px;
   height: 140px;
 
@@ -319,7 +409,7 @@ padding-top: 30px;
 
 }
 
-#nextBtn, #finishBtn, #stopBtn, #startBtn{
+#nextBtn, #finishBtn, #stopBtn, #startBtn, #loginBtn, #signUpbtn{
 
     background-color: initial;
     background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
@@ -349,7 +439,7 @@ padding-top: 30px;
 
   }
   
-  #nextBtn:hover, #finishBtn:hover {
+  #nextBtn:hover, #finishBtn:hover, #logout:hover, #loginBtn:hover, #signUpbtn:hover , .no-button:hover, #signUpNav:hover {
     box-shadow: #858585 0 3px 8px;
   }
 
@@ -366,20 +456,30 @@ padding-top: 30px;
   #wkOutHistContainer {
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    border: 3px solid #858585;
+    border: 2px solid #858585;
     background-color: #FFFFFF;
     border-radius: 8px;
     box-shadow: 8px 8px 10px #b9512b, rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    height: 40px;
-    width: 280px;
+    height: 170px;
+    width: 230px;
 
   }
 
-  #exercList {
+  #exercDate{
 
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff723f;
+    border: 2px solid #b9512b;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px #858585;
+    text-align: center;
+    margin-top: -15px;
+    height: 45px;
+    width: 170px;
 
   }
 
