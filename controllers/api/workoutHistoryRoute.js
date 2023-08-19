@@ -27,8 +27,6 @@ router.post('/', async (req, res) => {
             userId: req.session.user_id,
           });
 
-        const pastWorkouts = userHistoryData.map((history) => history.get({ plain: true }))
-
         res.status(200).json(newUserHistoryData);
     } catch (err) {
         console.error(err);

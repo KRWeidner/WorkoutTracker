@@ -1,10 +1,12 @@
   <main class="exerMain">
+    {{#each exercises as |exercise| }}
     <section class="exerSect">
       <div class="exerBox">
-        {{> exercise-details}}
-        {{exercise.workoutName}}
+        
+        {{> exercise-details exercise }}
       </div>
     </section>
+    {{/each}}
     <section class="timerSect">
       <div class="timeContainer">
         <div id="timeTitle">

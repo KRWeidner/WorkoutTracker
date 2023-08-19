@@ -1,14 +1,16 @@
-        <div id="exerTitle">
-          <h2>{{EXERCISE.NAME}}</h2>
-        </div>
-        <div class="exerData">
-          <div class="exerSRep">
-          <a>Sets left: {{SETS}}</a>
-          <a>Reps left: {{REPS}}</a>
-          </div>
-          <div class="exerImg">
-            <p>IMAGE</p>
-          <img src="">
-          </div>
-        </div>
-      
+<div id="exerTitle">
+  <h2>{{workoutName}}</h2>
+</div>
+<div class="exerData">
+  <div class="exerSRep">
+    <a>Sets left: {{sets}}</a>
+    <a>Reps left: {{reps}}</a>
+  </div>
+  <div class="exerImg">
+
+      {{#each exerciseimages as |exerciseimage| }}
+      <img src= "/images/bootyworkout-donkeyKicks-istockphoto-1306046535-1024x1024.jpg" alt="{{exerciseimage.photo_link}}" />
+      {{/each}}
+
+  </div>
+</div>

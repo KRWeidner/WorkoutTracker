@@ -1,16 +1,17 @@
 const router = require('express').Router();
-const { ExerciseList } = require('../../models');
+const { ExerciseList, ExerciseImage } = require('../../models');
 
 router.get('/:id', async (req, res) => {
     try {
-        const routineExercisesData = await ExerciseList.findAll({
+
+        const exercisesData = await ExerciseList.findAll({
              where: {
                  routineId: req.params.id
              },
+             include: [{ model: ExerciseImage}]
         });
-
-        const exercises = routineExercisesData.map((exercise) => exercise.get({ plain: true }))
-
+        const exercises = exercisesData.map((exercise) => exercise.get({ plain: true }))
+        console.log(exercises[0]);
         res.render('exercise', {
             exercises,
             logged_in: req.session.logged_in
