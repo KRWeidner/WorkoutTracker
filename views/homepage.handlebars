@@ -3,8 +3,7 @@
     {{#each routines as |routine| }}
     <section class="wkoutSect">
       <a id="wkOutEl" href="api/exercises/{{routine.id}}">
-      <div class="wkoutRout">
-        <img src="">
+      <div style="background-image: url('{{routine.photo_link}}');" class="wkoutRout">
         <div class="routinenName">
           <h2 id="routName">{{routine.routineName}}</h2>
         </div>
@@ -17,7 +16,7 @@
   {{/each}}
     <section class="wkHistSect">
       <a href="api/workouthistory">
-      <div class="navWkHist">
+      <div style="background-image: url('https://cdn.shpe.us/blog/wp-content/uploads/sites/5/2017/12/fitness-diet-and-nutrition-routine-concept-with-green-detox-smoo-780x405.webp');" class="navWkHist">
         <div class="routinenName">
           <h2>Workout History</h2>
         </div>

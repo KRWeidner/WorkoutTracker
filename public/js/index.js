@@ -6,6 +6,7 @@ const exercDate = document.getElementById('exercDate');
 const wkOutHistContainer = document.getElementById('wkOutHistContainer');
 const wkOutEl = document.getElementById('wkOutEl');
 
+
 function showDescription() {
 
     routDescription.style.display = "block";

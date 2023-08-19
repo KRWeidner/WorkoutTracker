@@ -28,17 +28,34 @@
     </div>
   </header>
 
-  <section class="wkOutHistSect">
-    <div id="wkOutHistContainer">
-      <div id="exercDate">
-        <h3>8/18/2023</h3>
+  <main class="exerMain">
+    <section class="exerSect">
+      <div class="exerBox">
+        {{> exercise-details}}
+        {{exercise.workoutName}}
       </div>
-      <div id="exercList">
-        <h3>Routine</h3>
-        <p>exercise1<br>exercise2<br>exercise3</p>
+    </section>
+    <section class="timerSect">
+      <div class="timeContainer">
+        <div id="timeTitle">
+          <h3>TIMER</h3>
+        </div>
+        <div id="timerFrame">
+          <div class="timer">
+            <a><!-- 2:00 --></a>
+          </div>
+        </div>
+        <div class="timerBtns">
+          <button id="startBtn" type="button">Start</button>
+          <button id="stopBtn"  type="button">Stop</button>
+        </div>
       </div>
+    </section>
+    <div id="navBtns">
+      <button id="finishBtn"  type="button">Finish Now</button>
+      <button id="nextBtn"  type="button">Next Workout</button>
     </div>
-  </section>
+  </main>
 
 </body>
   <script src="./public/js/index.js" type="text/javascript"></script>
