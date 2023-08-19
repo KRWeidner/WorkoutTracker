@@ -1,15 +1,7 @@
 <main class="wkHistMain">
 {{#each userwkouts as |userwkout|}}
-  <section class="wkOutHistSect">
-    <div id="wkOutHistContainer">
-      <div id="exercDate">
-        <h3>8/18/2023</h3>
-      </div>
-      <div id="exercList">
-        <h3>Routine</h3>
-        <p>exercise1<br>exercise2<br>exercise3</p>
-      </div>
-    </div>
-  </section>
+
+  {{> workouthistory-details}}
+
 {{/each}}
 </main>
