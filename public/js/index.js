@@ -4,6 +4,7 @@ const routTitle = document.getElementById('routTitle');
 const exercList = document.getElementById('exercList');
 const exercDate = document.getElementById('exercDate');
 const wkOutHistContainer = document.getElementById('wkOutHistContainer');
+const wkOutEl = document.getElementById('wkOutEl');
 
 function showDescription() {
 
@@ -19,13 +20,5 @@ function closeDescription() {
 
 };
 
-function enlargeBox() {
-
-    routTitle.style.display = "none";
-    exercList.style.display = "block";
-
-};
-
-routName.addEventListener("mouseenter", showDescription);
-routDescription.addEventListener("mouseleave", closeDescription);
-wkOutHistContainer.addEventListener("mouseenter", enlargeBox);
+wkOutEl.addEventListener("mouseenter", showDescription);
+wkOutEl.addEventListener("mouseleave", closeDescription);

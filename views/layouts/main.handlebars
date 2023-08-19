@@ -10,28 +10,27 @@
 <body>
   <header>
     <div id="logoContainer">
-      <img id="logoPic" src="./public/images/pngtree-wm-logo-design-concept-corporate-modern-minimal-vector-png-image_23637650.png">
+      <img id="logoPic" src="/images/pngtree-wm-logo-design-concept-corporate-modern-minimal-vector-png-image_23637650.png">
       <div class="pageTitle">
       <h1 id="firTitle">Waist</h1>
       <h1 id="secTitle">Management</h1>
     </div>
     </div>
     <div id="centerImg"></div>
-    <div>
+    <div id="logSignEl">
       <nav>
         {{#if logged_in}}
         <button class="no-button" id="logout">logout</button>
         {{else}}
-        <a href="/signup">Sign Up</a>
+        <a id="signUpNav" href="/signup">Sign Up</a>
         {{/if}}
       </nav>
     </div>
   </header>
   {{{body}}}
-
+</body>
   {{#if logged_in}}
   <script src="./js/logout.js"></script>
   {{/if}}
-</body>
   <script src="/js/index.js"></script>
 </html>
