@@ -5,7 +5,7 @@ router.get('/:id', async (req, res) => {
     try {
         const routineExercisesData = await ExerciseList.findAll({
              where: {
-                 rountineId: req.params.id
+                 routineId: req.params.id
              },
         });
 
