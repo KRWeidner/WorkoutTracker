@@ -2,8 +2,20 @@
     {{#each exercises as |exercise| }}
     <section class="exerSect">
       <div class="exerBox">
-        
-        {{> exercise-details exercise }}
+<!-- CHANGE TO THIS HANDLEBARS -->
+        <div id="exerTitle">
+          <h2>{{workoutName}}</h2>
+        </div>
+        <div class="exerData">
+          <div class="exerSRep">
+            <a class="SRepBox">Sets left: {{sets}}</a>
+            <a class="SRepBox">Reps left: {{reps}}</a>
+          </div>
+          <div class="exerImg">
+            <img src= "{{exerciseimage.photo_link}}" alt="{{exerciseimage.photo_link}}" />
+          </div>
+        </div>
+
       </div>
     </section>
     {{/each}}
