@@ -462,12 +462,22 @@ padding-top: 20px;
 
 .timer {
 
+ display: flex;
+ justify-content: center;
+ align-items: center;
  background-color: #efefef;
  border-radius: 5px;
  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
  height: 100px;
  width: 300px;
   
+}
+
+#countDown {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+
 }
 
 .timerBtns {
@@ -495,7 +505,7 @@ padding-top: 30px;
 
 }
 
-#nextBtn, #finishBtn, #stopBtn, #startBtn, #loginBtn, #signUpbtn, .no-button {
+#nextBtn, #finishBtn, #stopBtn, #startBtn, #loginBtn, #signUpbtn, .no-button, #homeBtn {
 
     background-color: initial;
     background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
@@ -525,17 +535,23 @@ padding-top: 30px;
 
   }
   
-  #nextBtn:hover, #finishBtn:hover, #logout:hover, #loginBtn:hover, #signUpbtn:hover , .no-button:hover, #signUpNav:hover, #startBtn:hover, #stopBtn:hover {
+  #nextBtn:hover, #finishBtn:hover, #logout:hover, #loginBtn:hover, #signUpbtn:hover , .no-button:hover, #signUpNav:hover, #startBtn:hover, #stopBtn:hover, #homeBtn:hover {
     box-shadow: #858585 0 3px 8px;
+  }
+
+  .wkHistMain {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 623px;
+
   }
 
   .wkOutHistSect {
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     align-content: center;
     padding-top: 39px;
+    padding-left: 60px;
 
   }
 
@@ -569,30 +585,9 @@ padding-top: 30px;
 
   }
 
-  .wkHistMain {
+  #homeNav {
 
-    height: 623px;
-
-  }
-
-  /*#wkOutHistContainer:hover {
-    
-    animation-duration: 2s;
-    animation-name: wkOutHistContainer;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
 
   }
-
-  @keyframes wkOutHistContainer {
-
-    0% {
-      height: 40px;
-      width: 250px;
-    }
-    100% {
-      height: 200px;
-      width: 180px;
-    }
-
-  }*/
