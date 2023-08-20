@@ -29,9 +29,13 @@ This is a student project for purposes of showning off teamwork and ability to c
 
 GitHub Repository: [https://github.com/KRWeidner/WorkoutTracker](https://github.com/KRWeidner/WorkoutTracker)
 
-Screen Shot:
+Heroku Link: [https://waist-management-e6142ec4ba30.herokuapp.com](https://waist-management-e6142ec4ba30.herokuapp.com)
 
-![Screen Shot:](images/BodyWeight-CrabWalk-istockphoto-1094508738-1024x1024.jpg)
+Login Page: 
+
+<img src="./public/images/Screenshot-LoginPage.jpg">
+
+
 
 
 
@@ -65,7 +69,7 @@ Have a quality README (with unique name, description, technologies used, screens
  
 ## Usage 
 
- The program allows a user to create an account, login and choose among workout options with a set of timed exercise routines.  The   application allows the user to keepp  arecocord." 
+ The program allows a user to create an account, login and choose among workout options with a set of timed exercise routines.  The application allows the user select and run workouts and to keep and acccess a workout history." 
 
  
 ## License 
