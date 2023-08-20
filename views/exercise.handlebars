@@ -1,30 +1,32 @@
-  <main class="exerMain">
-    <section class="exerSect">
-      <div class="exerBox">
-<!-- CHANGE TO THIS HANDLEBARS -->
-        <div id="exerTitle">
-          <h2 id="exerWkoutTitle">{{exercises.[1].workoutName}}</h2>
-        </div>
-        <div class="exerData">
-          <div class="exerSRep">
-            <a class="SRepBox">Sets left: {{exercises.[1].sets}}</a>
-            <a class="SRepBox">Reps per Set: {{exercises.[1].reps}}</a>
-          </div>
-          <div class="exerImgBox">
-            <img id="exerImg" src= "{{exercises.[1].photo_link}}" alt="{{exerciseimages.[1].photo_link}}" />
-          </div>
-        </div>
-<!-- CHANGE TO THIS HANDLEBARS -->
+<main class="exerMain">
+  {{#each exercises as |exercise| }}
+  <section class="exerSect">
+    <div class="exerBox">
+      <!-- CHANGE TO THIS HANDLEBARS -->
+      <div id="exerTitle">
+        <h2 id="exerWkoutTitle">{{workoutName}}</h2>
       </div>
-    </section>
-    <section class="timerSect">
-      <div class="timeContainer">
-        <div id="timeTitle">
-          <h3>TIMER</h3>
+      <div class="exerData" id="{{id}}-{{routineId}}">
+        <div class="exerSRep">
+          <a class="SRepBox">Sets left: {{sets}}</a>
+          <a class="SRepBox">Reps per Set: {{reps}}</a>
         </div>
-        <div id="timerFrame">
-          <div class="timer">
-            <a>{{exercises.[1].countdownDuration}}</a>
+        <div class="exerImgBox">
+          <img id="exerImg" src="{{exercise.photo_link}}" alt="{{exercise.photo_link}}" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="timerSect">
+    <div class="timeContainer">
+      <div id="timeTitle">
+        <h3>TIMER</h3>
+      </div>
+      <div id="timerFrame">
+        <div class="timer">
+          <a>{{exercise.countdownDuration}}</a>
           </div>
         </div>
         <div class="timerBtns">
@@ -32,12 +34,20 @@
           <button id="stopBtn"  type="button">Stop</button>
         </div>
       </div>
-    </section>
-    <div id="navBtns">
-      <button id="finishBtn"  type="button">Finish Now</button>
-      <button id="nextBtn"  type="button">Next Workout</button>
+      <div class="timerBtns">
+        <button id="startBtn" type="button">Start</button>
+        <button id="stopBtn" type="button">Stop</button>
+      </div>
     </div>
-  </main>
+  </section>
+  <div id="navBtns">
+    <button id="nextBtn" type="button">Next Workout</button>
+  </div>
+  {{/each}}
+  <div id="navBtns">
+    <button id="finishBtn" type="button">Finish Now</button>
+  </div>
+</main>
 
-{{!-- add div id with {{exercise.routineId}}  to queryseelct in exercise.js--}}
+{{!-- add div id with {{exercise.routineId}} to queryseelct in exercise.js--}}
 <script src="/js/exercise.js"></script>

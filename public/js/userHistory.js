@@ -11,7 +11,7 @@ const newPostFormHandler = async (event) => {
       // Send a POST request to the API endpoint
       const response = await fetch('/api/workoutHistory', {
         method: 'POST',
-        body: JSON.stringify({ userId: title, routineId: content, date: DATE.now }),
+        body: JSON.stringify({ routineId: content, date: DATE.now }),
         headers: { 'Content-Type': 'application/json' },
       });
   

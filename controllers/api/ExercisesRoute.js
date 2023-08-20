@@ -8,9 +8,10 @@ router.get('/:id', async (req, res) => {
              where: {
                  routineId: req.params.id
              },
+             order: [["routineId", "ASC"],["id", "ASC"]],
+             limit: 1
         });
-        const exercises = exercisesData.map((exercise) => exercise.get({ plain: true }))
-        console.log(exercises[0]);
+        const exercises = exercisesData.map((exercise) => exercise.get({ plain: true }));
         res.render('exercise', {
             exercises,
             logged_in: req.session.logged_in
