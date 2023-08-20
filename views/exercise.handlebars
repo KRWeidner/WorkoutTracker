@@ -19,10 +19,8 @@
           <img id="exerImg" src="{{exercise.photo_link}}" alt="{{exercise.photo_link}}" />
         </div>
       </div>
-
     </div>
   </section>
-
   <section class="timerSect">
     <div class="timeContainer">
       <div id="timeTitle">
@@ -31,8 +29,7 @@
       <div id="timerFrame">
         <div class="timer">
           {{ speak exercise.countdownDuration}}
-          <div id="clock">{{exercise.countdownDuration}}</div>
-          
+          <div id="countDown">{{exercise.countdownDuration}}</div>
         </div>
       </div>
       <div class="timerBtns">
