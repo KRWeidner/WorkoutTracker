@@ -32,19 +32,9 @@ const ExerciseImage = require('./ExerciseImage');
      foreignKey: 'routineId'
  });
 
- ExerciseList.hasMany(ExerciseImage, {
-    foreignKey: 'exercise_id'
- });
-
- ExerciseImage.belongsTo(ExerciseList, {
-    foreignKey: 'exercise_id'
-});
-
-
 module.exports = {
     User,
     UserWkOuts,
     WkOutRoutine,
-    ExerciseList,
-    ExerciseImage
+    ExerciseList
 };

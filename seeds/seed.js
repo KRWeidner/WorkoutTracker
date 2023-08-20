@@ -33,12 +33,6 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  await ExerciseImage.bulkCreate(seedImageData, {
-    individualHooks: true,
-    returning: true,
-  });
-
-
   process.exit(0);
 };
 

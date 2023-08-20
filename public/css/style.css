@@ -379,10 +379,16 @@ padding-top: 20px;
 
 }
 
-.exerImg {
+.exerImgBox {
 
-  border: 3px solid black;
   margin-top: 50px;
+  height: 240px;
+  width: 200px;
+
+}
+
+#exerImg {
+
   height: 240px;
   width: 200px;
 

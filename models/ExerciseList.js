@@ -36,6 +36,10 @@ ExerciseList.init(
             type: DataTypes.TIME,
             allowNull: false,
           },
+          photo_link: {
+            type: DataTypes.STRING,
+            allowNull: false,
+          },
     },
     {
         sequelize,

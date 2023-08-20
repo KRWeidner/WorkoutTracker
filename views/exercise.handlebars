@@ -1,24 +1,22 @@
   <main class="exerMain">
-    {{#each exercises as |exercise| }}
     <section class="exerSect">
       <div class="exerBox">
 <!-- CHANGE TO THIS HANDLEBARS -->
         <div id="exerTitle">
-          <h2>{{workoutName}}</h2>
+          <h2 id="exerWkoutTitle">{{exercises.[1].workoutName}}</h2>
         </div>
         <div class="exerData">
           <div class="exerSRep">
-            <a class="SRepBox">Sets left: {{sets}}</a>
-            <a class="SRepBox">Reps left: {{reps}}</a>
+            <a class="SRepBox">Sets left: {{exercises.[1].sets}}</a>
+            <a class="SRepBox">Reps per Set: {{exercises.[1].reps}}</a>
           </div>
-          <div class="exerImg">
-            <img src= "{{exerciseimage.photo_link}}" alt="{{exerciseimage.photo_link}}" />
+          <div class="exerImgBox">
+            <img id="exerImg" src= "{{exercises.[1].photo_link}}" alt="{{exerciseimages.[1].photo_link}}" />
           </div>
         </div>
-
+<!-- CHANGE TO THIS HANDLEBARS -->
       </div>
     </section>
-    {{/each}}
     <section class="timerSect">
       <div class="timeContainer">
         <div id="timeTitle">
@@ -26,7 +24,7 @@
         </div>
         <div id="timerFrame">
           <div class="timer">
-            <a><!-- 2:00 --></a>
+            <a>{{exercises.[1].countdownDuration}}</a>
           </div>
         </div>
         <div class="timerBtns">
@@ -42,4 +40,4 @@
   </main>
 
 {{!-- add div id with {{exercise.routineId}}  to queryseelct in exercise.js--}}
-<script src="./js/exercise.js"></script>
+<script src="/js/exercise.js"></script>
