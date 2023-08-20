@@ -6,6 +6,11 @@ const exercDate = document.getElementById('exercDate');
 const wkOutHistContainer = document.getElementById('wkOutHistContainer');
 const wkOutEl = document.getElementById('wkOutEl');
 
+const nextBtn = document.getElementById('nextBtn');
+
+var exerWkoutTitle = document.getElementById('exerWkoutTitle').innerHTML.split('');
+
+console.log(exerWkoutTitle);
 
 function showDescription() {
 
@@ -21,5 +26,11 @@ function closeDescription() {
 
 };
 
+function nextExercise() {
+
+
+};
+
 wkOutEl.addEventListener("mouseenter", showDescription);
 wkOutEl.addEventListener("mouseleave", closeDescription);
+//wkOutEl.addEventListener("onclick",)

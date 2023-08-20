@@ -1,114 +1,74 @@
 [
 	{
 		"routineId" : 1,
-		"workoutName" : "Lunges",
-		"reps" : 12,
-		"sets" : 3,
-		"countdownDuration" : "02:30:00"
-	},
-	{
-		"routineId" : 1,
 		"workoutName" : "Squats",
-		"reps" : 12,
-		"sets" : 3,
-		"countdownDuration" : "02:30:00"
+		"reps" : 8,
+		"sets" : 5,
+		"countdownDuration" : "02:30:00",
+		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2021/03/full-squat-side-view.gif"
 	},
 	{
 		"routineId" : 1,
-		"workoutName" : "Donkey kicks",
-		"reps" : 12,
-		"sets" : 3,
-		"countdownDuration" : "02:30:00"
+		"workoutName" : "Bench Press",
+		"reps" : 8,
+		"sets" : 5,
+		"countdownDuration" : "02:30:00",
+		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/03/barbell-bench-press-side-view.gif"
 	},
 	{
 		"routineId" : 1,
-		"workoutName" : "Outer Thigh Lift",
-		"reps" : 12,
-		"sets" : 3,
-		"countdownDuration" : "02:30:00"
-	},
-	{
-		"routineId" : 1,
-		"workoutName" : "Kickback",
-		"reps" : 12,
-		"sets" : 3,
-		"countdownDuration" : "02:30:00"
+		"workoutName" : "Rows",
+		"reps" : 8,
+		"sets" : 5,
+		"countdownDuration" : "02:30:00",
+		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/07/banded-wide-grip-row.gif"
 	},
 	{
 		"routineId" : 2,
-		"workoutName" : "Overhead Press",
-		"reps" : 12,
-		"sets" : 3,
-		"countdownDuration" : "02:30:00"
-	},
-	{
-		"routineId" : 2,
-		"workoutName" : "Plank",
-		"reps" : 1,
-		"sets" : 3,
-		"countdownDuration" : "01:00:00"
-	},
-	{
-		"routineId" : 2,
-		"workoutName" : "Chest fly",
-		"reps" : 12,
-		"sets" : 3,
-		"countdownDuration" : "02:30:00"
-	},
-	{
-		"routineId" : 2,
-		"workoutName" : "Push ujps",
+		"workoutName" : "Burpees",
 		"reps" : 15,
-		"sets" : 2,
-		"countdownDuration" : "02:30:00"
+		"sets" : 5,
+		"countdownDuration" : "02:30:00",
+		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/burpee-movement.gif"
 	},
 	{
 		"routineId" : 2,
-		"workoutName" : "Sit ups",
+		"workoutName" : "Mountain Climbers",
+		"reps" : 18,
+		"sets" : 5,
+		"countdownDuration" : "01:00:00",
+		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2022/11/mountain-climbers.gif"
+	},
+	{
+		"routineId" : 2,
+		"workoutName" : "Squat Jumps",
+		"reps" : 15,
+		"sets" : 5,
+		"countdownDuration" : "02:30:00",
+		"photo_link" : "https://homeworkouts.org/wp-content/uploads/anim-jump-squats.gif"
+	},
+	{
+		"routineId" : 3,
+		"workoutName" : "High-Knees",
+		"reps" : 30,
+		"sets" : 3,
+		"countdownDuration" : "02:30:00",
+		"photo_link" : "https://fitnessprogramer.com/wp-content/uploads/2021/09/High-Knees-against-wall.gif"
+	},
+	{
+		"routineId" : 3,
+		"workoutName" : "Lunges",
 		"reps" : 20,
-		"sets" : 2,
-		"countdownDuration" : "02:30:00"
+		"sets" : 5,
+		"countdownDuration" : "02:30:00",
+		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/07/bodyweight-forward-lunge.gif"
 	},
 	{
 		"routineId" : 3,
-		"workoutName" : "Frog Jumps",
-		"reps" : 15,
-		"sets" : 2,
-		"countdownDuration" : "02:30:00"
-	},
-	{
-		"routineId" : 3,
-		"workoutName" : "Duck Walks",
-		"reps" : 15,
-		"sets" : 2,
-		"countdownDuration" : "02:30:00"
-	},
-	{
-		"routineId" : 3,
-		"workoutName" : "Reverse Crunch",
-		"reps" : 15,
-		"sets" : 2,
-		"countdownDuration" : "01:30:00"
-	},
-	{
-		"routineId" : 3,
-		"workoutName" : "Mountain Climbers",
-		"reps" : 15,
-		"sets" : 2,
-		"countdownDuration" : "01:30:00"
-	},
-	{
-		"routineId" : 3,
-		"workoutName" : "Mountain Climbers",
-		"reps" : 15,
-		"sets" : 2,
-		"countdownDuration" : "01:30:00"
-	},
-	{
-		"routineId" : 3,
-		"workoutName" : "Mountain Climbers",
-		"reps" : 15,
-		"sets" : 2,
-		"countdownDuration" : "01:30:00"
+		"workoutName" : "Side Lunges",
+		"reps" : 20,
+		"sets" : 5,
+		"countdownDuration" : "01:30:00",
+		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/side-lunge.gif"
 	}
 ]
