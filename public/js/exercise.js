@@ -1,6 +1,3 @@
-//const Timer = require('tiny-timer');
-
-
 const time = document.querySelector(".time");
 const trigger = document.querySelector(".trigger");
 const nextWorkout = document.querySelectorAll('.exerData');
@@ -52,7 +49,6 @@ const nextExercise = async (event) => {
         });
 
         if (response.ok) {
-            console.log("ok");
 
             document.location.replace('/api/exercise/' + finalString + '/' + stringRoutineId);
         } else {
@@ -61,13 +57,11 @@ const nextExercise = async (event) => {
     }
 };
 
-
-
-
-
-console.log("before");
-
-
+const gotoHistoryPageFinal = async (event) => {
+    console.log("inside");
+    event.preventDefault();
+    document.location.replace('/api/workouthistory');
+};
 
 document.querySelector('#finishBtn').addEventListener('click', gotoHistoryPage);
 document.querySelector('#nextBtn').addEventListener('click', nextExercise);

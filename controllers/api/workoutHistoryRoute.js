@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { UserWkOuts, ExerciseList, WkOutRoutine } = require('../../models');
+const { UserWkOuts, WkOutRoutine } = require('../../models');
 
 router.get('/', async (req, res) => {
     try {
