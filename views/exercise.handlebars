@@ -1,45 +1,48 @@
-  <main class="exerMain">
-    {{#each exercises as |exercise| }}
-    <section class="exerSect">
-      <div class="exerBox">
-<!-- CHANGE TO THIS HANDLEBARS -->
-        <div id="exerTitle">
-          <h2>{{workoutName}}</h2>
+<main class="exerMain">
+  {{#each exercises as |exercise| }}
+  <section class="exerSect">
+    <div class="exerBox">
+      <!-- CHANGE TO THIS HANDLEBARS -->
+      <div id="exerTitle">
+        <h2>{{workoutName}}</h2>
+      </div>
+      <div class="exerData" id="{{id}}-{{routineId}}">
+        <div class="exerSRep">
+          <a class="SRepBox">Sets left: {{sets}}</a>
+          <a class="SRepBox">Reps per Set: {{reps}}</a>
         </div>
-        <div class="exerData">
-          <div class="exerSRep">
-            <a class="SRepBox">Sets left: {{sets}}</a>
-            <a class="SRepBox">Reps left: {{reps}}</a>
-          </div>
-          <div class="exerImg">
-            <img src= "{{exerciseimage.photo_link}}" alt="{{exerciseimage.photo_link}}" />
-          </div>
+        <div class="exerImg">
+          <img src="{{exerciseimage.photo_link}}" alt="{{exerciseimage.photo_link}}" />
         </div>
+      </div>
 
-      </div>
-    </section>
-    {{/each}}
-    <section class="timerSect">
-      <div class="timeContainer">
-        <div id="timeTitle">
-          <h3>TIMER</h3>
-        </div>
-        <div id="timerFrame">
-          <div class="timer">
-            <a><!-- 2:00 --></a>
-          </div>
-        </div>
-        <div class="timerBtns">
-          <button id="startBtn" type="button">Start</button>
-          <button id="stopBtn"  type="button">Stop</button>
-        </div>
-      </div>
-    </section>
-    <div id="navBtns">
-      <button id="finishBtn"  type="button">Finish Now</button>
-      <button id="nextBtn"  type="button">Next Workout</button>
     </div>
-  </main>
+  </section>
 
-{{!-- add div id with {{exercise.routineId}}  to queryseelct in exercise.js--}}
-<script src="./js/exercise.js"></script>
+  <section class="timerSect">
+    <div class="timeContainer">
+      <div id="timeTitle">
+        <h3>TIMER</h3>
+      </div>
+      <div id="timerFrame">
+        <div class="timer">
+          <a><!-- 2:00 --></a>
+        </div>
+      </div>
+      <div class="timerBtns">
+        <button id="startBtn" type="button">Start</button>
+        <button id="stopBtn" type="button">Stop</button>
+      </div>
+    </div>
+  </section>
+  <div id="navBtns">
+    <button id="nextBtn" type="button">Next Workout</button>
+  </div>
+  {{/each}}
+  <div id="navBtns">
+    <button id="finishBtn" type="button">Finish Now</button>
+  </div>
+</main>
+
+{{!-- add div id with {{exercise.routineId}} to queryseelct in exercise.js--}}
+<script src="/js/exercise.js"></script>

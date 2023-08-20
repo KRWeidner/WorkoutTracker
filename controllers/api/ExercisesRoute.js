@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { ExerciseList, ExerciseImage } = require('../../models');
+const { ExerciseList } = require('../../models');
 
 router.get('/:id', async (req, res) => {
     try {
@@ -8,10 +8,10 @@ router.get('/:id', async (req, res) => {
              where: {
                  routineId: req.params.id
              },
-             include: [{ model: ExerciseImage}]
+             order: [["routineId", "ASC"],["id", "ASC"]],
+             limit: 1
         });
-        const exercises = exercisesData.map((exercise) => exercise.get({ plain: true }))
-        console.log(exercises[0]);
+        const exercises = exercisesData.map((exercise) => exercise.get({ plain: true }));
         res.render('exercise', {
             exercises,
             logged_in: req.session.logged_in
