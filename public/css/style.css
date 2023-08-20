@@ -487,6 +487,14 @@ padding-top: 30px;
 
 }
 
+#navBtnsFinish {
+
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+
+}
+
 #nextBtn, #finishBtn, #stopBtn, #startBtn, #loginBtn, #signUpbtn, .no-button {
 
     background-color: initial;

@@ -1,17 +1,22 @@
 const router = require('express').Router();
-const { UserWkOuts } = require('../../models');
+const { UserWkOuts, ExerciseList, WkOutRoutine } = require('../../models');
 
 router.get('/', async (req, res) => {
     try {
         const userHistoryData = await UserWkOuts.findAll({
             where: { userId: req.session.user_id },
             order: ['date'],
+            include: [
+                {
+                    model: WkOutRoutine,
+                    attributes: ['routineName']
+                }]
         });
 
-        const pastWorkouts = userHistoryData.map((history) => history.get({ plain: true }))
+        const userwkouts = userHistoryData.map((history) => history.get({ plain: true }));
 
         res.render('workouthistory', {
-            pastWorkouts,
+            userwkouts,
             logged_in: req.session.logged_in
         })
     } catch (err) {
@@ -25,7 +30,7 @@ router.post('/', async (req, res) => {
         const newUserHistoryData = await UserWkOuts.create({
             ...req.body,
             userId: req.session.user_id,
-          });
+        });
 
         res.status(200).json(newUserHistoryData);
     } catch (err) {
