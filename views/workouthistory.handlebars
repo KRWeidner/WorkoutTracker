@@ -1,7 +1,5 @@
 <main class="wkHistMain">
-{{#each userwkouts as |userwkout|}}
-
-  {{> workouthistory-details}}
-
-{{/each}}
+  {{#each userwkouts as |userwkout|}}
+  {{> workouthistory-details userwkout}}
+  {{/each}}
 </main>
