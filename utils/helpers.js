@@ -5,7 +5,8 @@ module.exports = {
             }`;
     },
     speak: (name, reps, sets) => {
-        const say = require('say');
+        const Say = require('say').Say
+        const say = new Say('win32');
         say.getInstalledVoices();
         say.speak(name + " "+ reps + "reps per set for" + sets + "sets",'Cellos',0.75);
     },
