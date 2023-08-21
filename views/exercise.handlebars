@@ -1,7 +1,9 @@
 <main class="exerMain">
   {{#ifCond exercises}}
-  <h2>Great Workout!</h2>
+  <div id="greatFin">
+  <h2 id="greatWork">Great Workout!</h2>
   <a id="finishBtnFinal" href="/api/workouthistory">Finish</a>
+  </div>
   {{/ifCond}}
   {{#each exercises as |exercise| }}
   <section class="exerSect">
