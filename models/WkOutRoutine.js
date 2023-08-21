@@ -20,6 +20,10 @@ WkOutRoutine.init(
             type: DataTypes.INTEGER,
             allowNull: false,
           },
+          routineDescription: {
+            type: DataTypes.STRING,
+            allowNull: false,
+          },
           photo_link: {
             type: DataTypes.STRING,
             allowNull: false,

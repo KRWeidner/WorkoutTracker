@@ -1,16 +1,19 @@
 [
 	{
 		"routineName" : "Strength Workout",
+		"routineDescription" : "Keep yourself strong and build muscle mass.",
 		"routineVersion" : 1,
 		"photo_link" : "https://southsidegym.ie/wp-content/uploads/2022/05/Untitled-design-2_11zon.jpg"
 	},
 	{
 		"routineName" : "Cardio Workout",
+		"routineDescription" : "Improve your cardio endurdance.",
 		"routineVersion" : 1,
 		"photo_link" : "https://www.gymleco.com/wp-content/uploads/2022/05/A7S07811A765INSTA2-scaled.jpg"
 	},
 	{
 		"routineName" : "Agility Workout",
+		"routineDescription" : "Enhance your ability to move and reach.",
 		"routineVersion" : 1,
 		"photo_link" : "https://www.gymleco.com/wp-content/uploads/2022/05/440F-2400-dumbbell-rack-with-dumbbells-hantellstall-with-dumbells-club-fitness-1.jpg"
 	}
