@@ -1,26 +1,15 @@
-const time = document.querySelector(".time");
-const trigger = document.querySelector(".trigger");
+//exercise page logic to direct user to next page, create history record and move to next exercise
 const nextWorkout = document.querySelectorAll('.exerData');
 
-let timerInterval;
-let timeElapsed = 0;
-
-const toggleTimer = () => {
-    //const timer = new Timer();
-    console.log("here");
+const gotoHistoryPage = async (event) => {
+    event.preventDefault();
+    document.location.replace('/api/workouthistory');
 };
 
-
-// trigger.addEventListener("click", toggleTimer);
-
-const gotoHistoryPage = async (event) => {
-    console.log("inside");
-    event.preventDefault();
-
+const createHistoryLog = async () => {
     const routineId = nextWorkout[0].id.split("-")[1];
 
     if (routineId) {
-        console.log(routineId);
         const response = await fetch('/api/workouthistory', {
             method: 'POST',
             body: JSON.stringify({ routineId: routineId, date: Date.now() }),
@@ -42,6 +31,12 @@ const nextExercise = async (event) => {
     const finalString = String(numberId);
     const stringRoutineId = nextWorkout[0].id.split("-")[1];
 
+    //creating history log upon completion of the 3rd exercise
+    if (numberId % 3 ==0) {
+        console.log("true");
+        createHistoryLog();
+    }
+
     if (finalString && stringRoutineId) {
         const response = await fetch('/api/exercise/' + finalString + "/" + stringRoutineId, {
             method: 'GET',
@@ -58,10 +53,10 @@ const nextExercise = async (event) => {
 };
 
 const gotoHistoryPageFinal = async (event) => {
-    console.log("inside");
     event.preventDefault();
     document.location.replace('/api/workouthistory');
 };
+
 
 document.querySelector('#finishBtn').addEventListener('click', gotoHistoryPage);
 document.querySelector('#nextBtn').addEventListener('click', nextExercise);

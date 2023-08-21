@@ -1,3 +1,4 @@
+//js logic for main homepage of app
 const routDescription = document.getElementById('routDesc');
 const routName = document.getElementById('routName');
 const routTitle = document.getElementById('routTitle');
@@ -9,8 +10,6 @@ const wkOutEl = document.getElementById('wkOutEl');
 const nextBtn = document.getElementById('nextBtn');
 
 var exerWkoutTitle = document.getElementById('exerWkoutTitle').innerHTML.split('');
-
-console.log(exerWkoutTitle);
 
 function showDescription() {
 
@@ -26,11 +25,5 @@ function closeDescription() {
 
 };
 
-function nextExercise() {
-
-
-};
-
 wkOutEl.addEventListener("mouseenter", showDescription);
 wkOutEl.addEventListener("mouseleave", closeDescription);
-//wkOutEl.addEventListener("onclick",)

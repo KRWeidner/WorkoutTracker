@@ -1,9 +1,8 @@
-//script function to run the countdown clock on exercise page
+//script function to run the countdown clock on exercise page, supports stop and start buttons
 
 let minute = document.getElementById("countDown").innerHTML.split(":")[1];
 let second = document.getElementById("countDown").innerHTML.split(":")[2];
 let count = 0;
-
 
 function stopWatch() {
     if (timer) {
