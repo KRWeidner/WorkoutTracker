@@ -1,14 +1,16 @@
 module.exports = {
 
     format_date: (date) => {
-        return `${new Date(date).getMonth() + 1}/${new Date(date).getDate()}/${new Date(date).getFullYear() + 5
+        console.log(date);
+        const dateTime = `${new Date(date).getMonth() + 1}/${new Date(date).getDate()}/${new Date(date).getFullYear() + 5
             }`;
+            console.log(dateTime);
+            return dateTime;
     },
-    speak: (startTime) => {
+    speak: (startTime, name) => {
         const say = require('say');
         say.getInstalledVoices();
-        let voices = say.getInstalledVoices();
-        say.speak(startTime, 'Alex');
+        say.speak(name, 'Cellos');
     },
     ifCond: (value, options) => {
         if (value.length === 0) {

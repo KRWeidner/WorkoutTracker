@@ -1,56 +1,55 @@
 //script function to run the countdown clock on exercise page
 
-let minute = document.getElementById("clock").innerHTML.split(":")[1];
-let second = document.getElementById("clock").innerHTML.split(":")[2];
+let minute = document.getElementById("countDown").innerHTML.split(":")[1];
+let second = document.getElementById("countDown").innerHTML.split(":")[2];
 let count = 0;
 
 
 function stopWatch() {
     if (timer) {
         count++;
-
         if (count == 100) {
             second--;
             count = 0;
         }
-        if(second == 60){
+        if (second == 60) {
             second = 59;
         }
-        if(second == 0 && minute == 0){
-            minute = 0;
-            second = 0;
+        if (second == 0 && minute == 0) {
+            let zeroTime = "00:" + "00" + ":" + "00";
+            document.getElementById("countDown").innerHTML = zeroTime;
+            return;
         }
         if (second == 0 && minute != 0) {
             minute--;
             second = 60;
         }
+
+        let sec = second;
+        let min = minute;
         if (second < 10) {
-            second = "0" + second;
+            sec = "0" + second;
+        }
+        if (minute < 10 && minute.length < 2) {
+            min = "0" + minute;
         }
 
         let countdownTime =
             "00:" +
-            minute +
+            min +
             ":" +
-            second;
+            sec;
 
-        document.getElementById("clock").innerHTML = countdownTime;
+        document.getElementById("countDown").innerHTML = countdownTime;
         setTimeout(stopWatch, 10);
     }
 }
 
-start = document.getElementById("startBtn");
-stop = document.getElementById("stopBtn");
-
-if (start) {
-    start.addEventListener('click', function () {
-        timer = true;
-        stopWatch();
-    });
-}
-if (stop) {
-    stop.addEventListener('click', function () {
-        timer = false;
-    });
-}
+let start = document.getElementById("startBtn").addEventListener('click', function () {
+    timer = true;
+    stopWatch();
+});
+let stopClock = document.getElementById("stopBtn").addEventListener('click', function () {
+    timer = false;
+});
 

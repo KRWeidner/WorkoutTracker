@@ -505,7 +505,7 @@ padding-top: 30px;
 
 }
 
-#nextBtn, #finishBtn, #stopBtn, #startBtn, #loginBtn, #signUpbtn, .no-button, #homeBtn {
+#nextBtn, #finishBtn, #stopBtn, #startBtn, #loginBtn, #signUpbtn, .no-button, #homeBtn, #finishBtnFinal {
 
     background-color: initial;
     background-image: linear-gradient(-180deg, #FF7E31, #E62C03);

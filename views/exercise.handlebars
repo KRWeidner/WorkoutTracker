@@ -1,7 +1,7 @@
 <main class="exerMain">
   {{#ifCond exercises}}
   <h2>Great Workout!</h2>
-  <button id="finishBtnFinal" type="button">Finish</button>
+  <a id="finishBtnFinal" href="/api/workouthistory">Finish</a>
   {{/ifCond}}
   {{#each exercises as |exercise| }}
   <section class="exerSect">
@@ -28,7 +28,7 @@
       </div>
       <div id="timerFrame">
         <div class="timer">
-          {{ speak exercise.countdownDuration}}
+          {{ speak exercise.countdownDuration exercise.workoutName}}
           <div id="countDown">{{exercise.countdownDuration}}</div>
         </div>
       </div>
