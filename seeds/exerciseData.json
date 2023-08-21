@@ -5,7 +5,7 @@
 		"workoutName" : "Bench Press",
 		"reps" : 8,
 		"sets" : 5,
-		"countdownDuration" : "00:02:30",
+		"countdownDuration" : "00:15:00",
 		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/03/barbell-bench-press-side-view.gif"
 	},
 	{
@@ -14,7 +14,7 @@
 		"workoutName" : "Squats",
 		"reps" : 8,
 		"sets" : 5,
-		"countdownDuration" : "00:02:30",
+		"countdownDuration" : "00:15:00",
 		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2021/03/full-squat-side-view.gif"
 	},
 	{
@@ -23,7 +23,7 @@
 		"workoutName" : "Rows",
 		"reps" : 8,
 		"sets" : 5,
-		"countdownDuration" : "00:02:30",
+		"countdownDuration" : "00:15:00",
 		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/07/banded-wide-grip-row.gif"
 	},
 	{
@@ -32,7 +32,7 @@
 		"workoutName" : "Burpees",
 		"reps" : 15,
 		"sets" : 5,
-		"countdownDuration" : "00:02:30",
+		"countdownDuration" : "00:12:00",
 		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/burpee-movement.gif"
 	},
 	{
@@ -41,7 +41,7 @@
 		"workoutName" : "Mountain Climbers",
 		"reps" : 18,
 		"sets" : 5,
-		"countdownDuration" : "00:01:00",
+		"countdownDuration" : "00:12:00",
 		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2022/11/mountain-climbers.gif"
 	},
 	{
@@ -50,7 +50,7 @@
 		"workoutName" : "Squat Jumps",
 		"reps" : 15,
 		"sets" : 5,
-		"countdownDuration" : "00:02:30",
+		"countdownDuration" : "00:12:00",
 		"photo_link" : "https://homeworkouts.org/wp-content/uploads/anim-jump-squats.gif"
 	},
 	{
@@ -59,7 +59,7 @@
 		"workoutName" : "High-Knees",
 		"reps" : 30,
 		"sets" : 3,
-		"countdownDuration" : "00:02:30",
+		"countdownDuration" : "00:12:00",
 		"photo_link" : "https://fitnessprogramer.com/wp-content/uploads/2021/09/High-Knees-against-wall.gif"
 	},
 	{
@@ -68,7 +68,7 @@
 		"workoutName" : "Lunges",
 		"reps" : 20,
 		"sets" : 5,
-		"countdownDuration" : "00:02:30",
+		"countdownDuration" : "00:15:00",
 		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/07/bodyweight-forward-lunge.gif"
 	},
 	{
@@ -77,7 +77,7 @@
 		"workoutName" : "Side Lunges",
 		"reps" : 20,
 		"sets" : 5,
-		"countdownDuration" : "00:01:30",
+		"countdownDuration" : "00:15:00",
 		"photo_link" : "https://www.inspireusafoundation.org/wp-content/uploads/2023/08/side-lunge.gif"
 	}
 ]
