@@ -7,7 +7,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
 
-This is a student project for purposes of showning off teamwork and ability to create a 'Fullstack' Web application from scratch. 
+This is a student project for purposes of showing off teamwork and ability to create a 'Fullstack' Web application from scratch. 
 
 
 ## Table of Contents 
@@ -69,7 +69,7 @@ Have a quality README (with unique name, description, technologies used, screens
  
 ## Usage 
 
- The program allows a user to create an account, login and choose among workout options with a set of timed exercise routines.  The application allows the user select and run workouts and to keep and acccess a workout history." 
+ The program allows a user to create an account, login and choose among workout options with a set of timed exercise routines.  The application allows the user select and run workouts and to keep and acccess a workout history.
 
  
 ## License 
