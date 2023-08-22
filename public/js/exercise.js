@@ -16,9 +16,7 @@ const createHistoryLog = async () => {
             headers: { 'Content-Type': 'application/json' },
         });
 
-        if (response.ok) {
-            document.location.replace('/api/workouthistory');
-        } else {
+        if (!response.ok) {
             alert(response.statusText);
         }
     }
